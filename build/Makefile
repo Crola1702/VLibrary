@@ -123,6 +123,19 @@ VLibrary/fast:
 	$(MAKE) -f CMakeFiles/VLibrary.dir/build.make CMakeFiles/VLibrary.dir/build
 .PHONY : VLibrary/fast
 
+#=============================================================================
+# Target rules for targets named VLibrary_autogen
+
+# Build rule for target.
+VLibrary_autogen: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 VLibrary_autogen
+.PHONY : VLibrary_autogen
+
+# fast build rule for target.
+VLibrary_autogen/fast:
+	$(MAKE) -f CMakeFiles/VLibrary_autogen.dir/build.make CMakeFiles/VLibrary_autogen.dir/build
+.PHONY : VLibrary_autogen/fast
+
 Classes/Book.o: Classes/Book.cpp.o
 
 .PHONY : Classes/Book.o
@@ -204,6 +217,33 @@ Classes/Library.cpp.s:
 	$(MAKE) -f CMakeFiles/VLibrary.dir/build.make CMakeFiles/VLibrary.dir/Classes/Library.cpp.s
 .PHONY : Classes/Library.cpp.s
 
+VLibrary_autogen/mocs_compilation.o: VLibrary_autogen/mocs_compilation.cpp.o
+
+.PHONY : VLibrary_autogen/mocs_compilation.o
+
+# target to build an object file
+VLibrary_autogen/mocs_compilation.cpp.o:
+	$(MAKE) -f CMakeFiles/VLibrary.dir/build.make CMakeFiles/VLibrary.dir/VLibrary_autogen/mocs_compilation.cpp.o
+.PHONY : VLibrary_autogen/mocs_compilation.cpp.o
+
+VLibrary_autogen/mocs_compilation.i: VLibrary_autogen/mocs_compilation.cpp.i
+
+.PHONY : VLibrary_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+VLibrary_autogen/mocs_compilation.cpp.i:
+	$(MAKE) -f CMakeFiles/VLibrary.dir/build.make CMakeFiles/VLibrary.dir/VLibrary_autogen/mocs_compilation.cpp.i
+.PHONY : VLibrary_autogen/mocs_compilation.cpp.i
+
+VLibrary_autogen/mocs_compilation.s: VLibrary_autogen/mocs_compilation.cpp.s
+
+.PHONY : VLibrary_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+VLibrary_autogen/mocs_compilation.cpp.s:
+	$(MAKE) -f CMakeFiles/VLibrary.dir/build.make CMakeFiles/VLibrary.dir/VLibrary_autogen/mocs_compilation.cpp.s
+.PHONY : VLibrary_autogen/mocs_compilation.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -240,6 +280,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... VLibrary"
+	@echo "... VLibrary_autogen"
 	@echo "... Classes/Book.o"
 	@echo "... Classes/Book.i"
 	@echo "... Classes/Book.s"
@@ -249,6 +290,9 @@ help:
 	@echo "... Classes/Library.o"
 	@echo "... Classes/Library.i"
 	@echo "... Classes/Library.s"
+	@echo "... VLibrary_autogen/mocs_compilation.o"
+	@echo "... VLibrary_autogen/mocs_compilation.i"
+	@echo "... VLibrary_autogen/mocs_compilation.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

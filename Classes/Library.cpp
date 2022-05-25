@@ -10,7 +10,7 @@
 #include "Library.h"
 
 void Library::loadCategories(std::string fileName) {
-    std::ifstream file("./Data/"+fileName);
+    std::ifstream file("../Data/"+fileName);
 
     if (!file.is_open()) {
         std::cout << "Could not open categories file\n";
@@ -31,7 +31,7 @@ void Library::loadCategories(std::string fileName) {
 }
 
 void Library::loadBooks(std::string fileName) {
-    std::ifstream file ("./Data/"+fileName);
+    std::ifstream file ("../Data/"+fileName);
 
     if (!file.is_open()) {
         std::cout << "Could not open books file\n";

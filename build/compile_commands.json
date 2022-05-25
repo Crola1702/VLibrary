@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/agali/CLionProjects/VLibrary/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/agali/CLionProjects/VLibrary/build -I/home/agali/CLionProjects/VLibrary -I/home/agali/CLionProjects/VLibrary/build/VLibrary_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=gnu++14 -o CMakeFiles/VLibrary.dir/VLibrary_autogen/mocs_compilation.cpp.o -c /home/agali/CLionProjects/VLibrary/build/VLibrary_autogen/mocs_compilation.cpp",
+  "file": "/home/agali/CLionProjects/VLibrary/build/VLibrary_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/agali/CLionProjects/VLibrary/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/agali/CLionProjects/VLibrary/build -I/home/agali/CLionProjects/VLibrary -I/home/agali/CLionProjects/VLibrary/build/VLibrary_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=gnu++14 -o CMakeFiles/VLibrary.dir/main.cpp.o -c /home/agali/CLionProjects/VLibrary/main.cpp",
+  "file": "/home/agali/CLionProjects/VLibrary/main.cpp"
+},
+{
+  "directory": "/home/agali/CLionProjects/VLibrary/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/agali/CLionProjects/VLibrary/build -I/home/agali/CLionProjects/VLibrary -I/home/agali/CLionProjects/VLibrary/build/VLibrary_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=gnu++14 -o CMakeFiles/VLibrary.dir/Classes/Book.cpp.o -c /home/agali/CLionProjects/VLibrary/Classes/Book.cpp",
+  "file": "/home/agali/CLionProjects/VLibrary/Classes/Book.cpp"
+},
+{
+  "directory": "/home/agali/CLionProjects/VLibrary/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/agali/CLionProjects/VLibrary/build -I/home/agali/CLionProjects/VLibrary -I/home/agali/CLionProjects/VLibrary/build/VLibrary_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=gnu++14 -o CMakeFiles/VLibrary.dir/Classes/Category.cpp.o -c /home/agali/CLionProjects/VLibrary/Classes/Category.cpp",
+  "file": "/home/agali/CLionProjects/VLibrary/Classes/Category.cpp"
+},
+{
+  "directory": "/home/agali/CLionProjects/VLibrary/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -I/home/agali/CLionProjects/VLibrary/build -I/home/agali/CLionProjects/VLibrary -I/home/agali/CLionProjects/VLibrary/build/VLibrary_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -g   -fPIC -std=gnu++14 -o CMakeFiles/VLibrary.dir/Classes/Library.cpp.o -c /home/agali/CLionProjects/VLibrary/Classes/Library.cpp",
+  "file": "/home/agali/CLionProjects/VLibrary/Classes/Library.cpp"
+}
+]

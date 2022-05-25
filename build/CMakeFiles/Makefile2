@@ -64,6 +64,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/VLibrary.dir/clean
+clean: CMakeFiles/VLibrary_autogen.dir/clean
 
 .PHONY : clean
 
@@ -71,15 +72,15 @@ clean: CMakeFiles/VLibrary.dir/clean
 # Target rules for target CMakeFiles/VLibrary.dir
 
 # All Build rule for target.
-CMakeFiles/VLibrary.dir/all:
+CMakeFiles/VLibrary.dir/all: CMakeFiles/VLibrary_autogen.dir/all
 	$(MAKE) -f CMakeFiles/VLibrary.dir/build.make CMakeFiles/VLibrary.dir/depend
 	$(MAKE) -f CMakeFiles/VLibrary.dir/build.make CMakeFiles/VLibrary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/agali/CLionProjects/VLibrary/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target VLibrary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/agali/CLionProjects/VLibrary/build/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target VLibrary"
 .PHONY : CMakeFiles/VLibrary.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/VLibrary.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/agali/CLionProjects/VLibrary/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agali/CLionProjects/VLibrary/build/CMakeFiles 7
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/VLibrary.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/agali/CLionProjects/VLibrary/build/CMakeFiles 0
 .PHONY : CMakeFiles/VLibrary.dir/rule
@@ -93,6 +94,33 @@ VLibrary: CMakeFiles/VLibrary.dir/rule
 CMakeFiles/VLibrary.dir/clean:
 	$(MAKE) -f CMakeFiles/VLibrary.dir/build.make CMakeFiles/VLibrary.dir/clean
 .PHONY : CMakeFiles/VLibrary.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/VLibrary_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/VLibrary_autogen.dir/all:
+	$(MAKE) -f CMakeFiles/VLibrary_autogen.dir/build.make CMakeFiles/VLibrary_autogen.dir/depend
+	$(MAKE) -f CMakeFiles/VLibrary_autogen.dir/build.make CMakeFiles/VLibrary_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/agali/CLionProjects/VLibrary/build/CMakeFiles --progress-num=7 "Built target VLibrary_autogen"
+.PHONY : CMakeFiles/VLibrary_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/VLibrary_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agali/CLionProjects/VLibrary/build/CMakeFiles 1
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/VLibrary_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/agali/CLionProjects/VLibrary/build/CMakeFiles 0
+.PHONY : CMakeFiles/VLibrary_autogen.dir/rule
+
+# Convenience name for target.
+VLibrary_autogen: CMakeFiles/VLibrary_autogen.dir/rule
+
+.PHONY : VLibrary_autogen
+
+# clean rule for target.
+CMakeFiles/VLibrary_autogen.dir/clean:
+	$(MAKE) -f CMakeFiles/VLibrary_autogen.dir/build.make CMakeFiles/VLibrary_autogen.dir/clean
+.PHONY : CMakeFiles/VLibrary_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

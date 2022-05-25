@@ -17,6 +17,8 @@ CMakeFiles/VLibrary.dir/Classes/Library.cpp.o: ../Classes/Image.h
 CMakeFiles/VLibrary.dir/Classes/Library.cpp.o: ../Classes/Library.cpp
 CMakeFiles/VLibrary.dir/Classes/Library.cpp.o: ../Classes/Library.h
 
+CMakeFiles/VLibrary.dir/VLibrary_autogen/mocs_compilation.cpp.o: VLibrary_autogen/mocs_compilation.cpp
+
 CMakeFiles/VLibrary.dir/main.cpp.o: ../Classes/Book.h
 CMakeFiles/VLibrary.dir/main.cpp.o: ../Classes/Category.h
 CMakeFiles/VLibrary.dir/main.cpp.o: ../Classes/Image.h

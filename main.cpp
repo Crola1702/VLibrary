@@ -1,5 +1,7 @@
 #include <iostream>
 
+// TODO: #include <QApplication>
+
 #include "Classes/Book.h"
 #include "Classes/Category.h"
 #include "Classes/Library.h"

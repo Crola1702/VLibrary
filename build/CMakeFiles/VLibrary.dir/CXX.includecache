@@ -6,25 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/agali/CLionProjects/VLibrary/Classes/Book.cpp
-Book.h
-/home/agali/CLionProjects/VLibrary/Classes/Book.h
-Category.h
-/home/agali/CLionProjects/VLibrary/Classes/Category.h
-sstream
--
-
 /home/agali/CLionProjects/VLibrary/Classes/Book.h
 string
 -
 Image.h
 /home/agali/CLionProjects/VLibrary/Classes/Image.h
-
-/home/agali/CLionProjects/VLibrary/Classes/Category.cpp
-sstream
--
-Category.h
-/home/agali/CLionProjects/VLibrary/Classes/Category.h
 
 /home/agali/CLionProjects/VLibrary/Classes/Category.h
 string
@@ -37,18 +23,6 @@ Book.h
 /home/agali/CLionProjects/VLibrary/Classes/Image.h
 string
 -
-
-/home/agali/CLionProjects/VLibrary/Classes/Library.cpp
-fstream
--
-iostream
--
-sstream
--
-string
--
-Library.h
-/home/agali/CLionProjects/VLibrary/Classes/Library.h
 
 /home/agali/CLionProjects/VLibrary/Classes/Library.h
 string

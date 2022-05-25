@@ -17,7 +17,8 @@ This will download the images from the internet and save them in the folder `ima
 
 Run:
 ```bash
-build/VLibrary
+cd build/
+./VLibrary
 ```
 or 
 ```bash
